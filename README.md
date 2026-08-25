@@ -1,69 +1,17 @@
-# tarefas
-Aplicação de CRUD para tarefas do dia a dia
+PROJETO TAREFAS
 
+# Primeiros passos
+node --version / v20.20.2
 
-### Arquitetura usada
+npm --version / 10.8.2
 
-## VS Code → editor
-## TypeScript → linguagem
-## React Native + Expo → aplicativo Android
-## Expo Router → navegação entre telas
-## Supabase → banco de dados + autenticação
-## Expo Notifications → notificações dos lembretes
-## Git + GitHub → versionamento e backup
-## Render → vamos deixar reservado para quando realmente precisarmos de um backend/serviço web
+git --version / git version 2.53.0.windows.2
 
-### O Aplicativo que vamos construir
-Vamos começar simples e ir evoluindo.
+npx --verson / 10.8.2
 
-Versão 1 — nosso MVP
+Conta Expo Go - App Instalado no celular
 
-    O aplicativo terá:
+# Segundo passo
+Criação do Projeto
+npx create-expo-app@latest app-tarefas --template blank
 
-        ## Tela principal
-
-        tarefas de hoje
-        tarefa concluída/não concluída
-        horário
-        prioridade
-        botão +
-
-        ## Criar tarefa
-
-        título
-        descrição
-        data
-        horário
-        prioridade
-        ativar/desativar lembrete
-
-        ## Editar tarefa
-
-        ## Excluir tarefa
-
-        ## Concluir tarefa
-
-        ## Notificação
-
-            Por exemplo:
-
-            🔔 Lembrete
-            “Estudar programação”
-
-            às 19:00.
-
-        Depois podemos evoluir para:
-
-        tarefas recorrentes
-        categorias
-        filtros
-        tarefas de amanhã
-        calendário
-        login
-        sincronização entre dispositivos
-        modo escuro
-        estatísticas
-        tarefas atrasadas
-        notificações recorrentes
-        tela de configurações
-        publicação na Play Store
